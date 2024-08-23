@@ -199,8 +199,8 @@ inputs:
         - Best practices: DRY, SOLID, KISS
 
       Do not comment on minor code style issues, missing 
-      comments/documentation, unhandled exceptions. Identify and resolve significant 
-      concerns to improve overall code quality while deliberately 
+      comments/documentation, unhandled exceptions. Do not add try/catch blocks to code.
+      Identify and resolve significant concerns to improve overall code quality while deliberately 
       disregarding minor issues.
   summarize:
     required: false
