@@ -201,7 +201,8 @@ inputs:
       Do not comment on minor code style issues, missing 
       comments/documentation, unhandled exceptions. Identify and resolve significant 
       concerns to improve overall code quality while deliberately 
-      disregarding minor issues.
+      disregarding minor issues. Don't recommend using try/catch blocks because error 
+      handling can be done up the stack. 
   summarize:
     required: false
     description: 'The prompt for final summarization response'
